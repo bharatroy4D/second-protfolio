@@ -100,19 +100,45 @@
 .about-section{
     display: flex;
     justify-content: space-between;
-    flex-direction: row-reverse;
     align-items: center;
-    gap: 16px;
+    gap: 20px;
     width: 80%;
     margin: auto;
     margin-top: 70px;
-
+    background-color:whitesmoke;
 }
 .about-section img{
-    width: 350px;
+    width: 400px;
     margin-right: 30px;
+    padding: 25px;
+}
+.about-title h1{
+    font-size: 25px;
+    padding-bottom: 16px;    
+    margin-left: 15px;
 }
 .about-title p{
     font-size: 20px;
-    line-height: 30px;
+    line-height: 25px;
+    margin-left: 15px;
+}
+.project-container{
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+    border-top: 2px solid ;
+}
+.project-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.project-items{
+    display: flex;
+    justify-content:space-between;
+}
+.project-items img{
+    width: 340px;
+    margin-top: 20px;
 }
