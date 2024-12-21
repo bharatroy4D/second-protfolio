@@ -1,25 +1,34 @@
 
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ header{
+    background-color: aqua;
+}
 .nav-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 80%;
     margin: auto;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    padding: 20px;
+ 
 }
 .nav-container img{
-    width: 150px;
+    width: 200px;
 }
 .items-container{
     display: flex;
+    gap: 30px;
     
 }
 .items-container li{
-    margin-right: 18px;
     list-style: none;
-    color: blueviolet;
+    color: rgb(89, 55, 121);
     font-size: 18px;
+    font-weight: bold;
     
 
 }
@@ -27,15 +36,27 @@
     width: 100px;
     height: 40px;
     border-radius: 6px;
+    background-color: white;
+    font-weight: bold;
 }
 /* hero section start */
 .hero-section{
     display: flex;
     justify-content: space-between;
+    gap: 20px;
     align-items: center;
     width: 80%;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 50px;
+    
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.hero-content p{
+    color: cadetblue;
 }
 .hero-img img{
     width: 500px;
@@ -46,35 +67,52 @@
     border-radius: 6px;
     background-color: blueviolet;
     color: white;
+    font-weight: bold;
+    border: none;
 }
 /* card-section */
 .card-section{
     width: 80%;
     margin: auto;
+    margin-top: 60px;
 }
 .card-items{
     display: flex;
     margin-top: 20px;
 }
 .card-items div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     background-color: aqua;
     margin-right: 15px;
     border-radius: 6px;
+    box-shadow: 2px 2px 12px;
+}
+.card-items div img{
+    width: 100px;
+    padding-top: 15px;
+}
+.card-items div p{
+    padding-bottom: 15px;
+    padding-right: 15px;
 }
 .about-section{
     display: flex;
     justify-content: space-between;
+    flex-direction: row-reverse;
     align-items: center;
+    gap: 16px;
     width: 80%;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 70px;
 
 }
 .about-section img{
-    width: 500px;
+    width: 350px;
     margin-right: 30px;
 }
 .about-title p{
     font-size: 20px;
-    line-s
+    line-height: 30px;
 }
