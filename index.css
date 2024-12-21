@@ -33,7 +33,7 @@
 
 }
 .btn{
-    width: 100px;
+    width: 120px;
     height: 40px;
     border-radius: 6px;
     background-color: white;
@@ -127,6 +127,7 @@
     margin: auto;
     margin-top: 80px;
     border-top: 2px solid ;
+    border-top-style: dotted;
 }
 .project-header{
     display: flex;
@@ -140,5 +141,5 @@
 }
 .project-items img{
     width: 340px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
